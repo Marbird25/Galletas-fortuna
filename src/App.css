@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.cook-fortune{
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  padding: 30px;
+  border-radius: 10px;
+  background: #fff;
+  text-align: center;
+}
+
+button {
+  background-color: rgba(128, 128, 128, 0.404);
+  border: none;
+  width: 140px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.titulo{
+padding: 50px;
+top: 10px;
+text-align: center;
+color: white;
+
+}
